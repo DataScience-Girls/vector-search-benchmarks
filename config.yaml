@@ -1,0 +1,21 @@
+benchmark:
+  dataset: "datat"
+  query_count: 1000
+  batch_size: 100
+  knn: 10
+  output_file: "benchmark_results.csv"
+
+elasticsearch:
+  host: "elasticsearch"
+  port: 9200
+  index_name: "embeddings"
+
+opensearch:
+  host: "opensearch"
+  port: 9200
+  index_name: "embeddings"
+
+milvus:
+  host: "milvus"
+  port: 19530
+  collection_name: "embeddings"

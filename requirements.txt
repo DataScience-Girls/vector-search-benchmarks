@@ -1,3 +1,4 @@
 tqdm
 flair
+lxml
 elasticsearch
